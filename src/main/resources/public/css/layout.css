@@ -7,7 +7,7 @@ ul {
 }
 
 li {
-  float: left;
+  float: center;
 }
 
 li a {
@@ -18,10 +18,6 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #04AA6D;
+li a:hover {
+  background-color: #f3f3f3;
 }
